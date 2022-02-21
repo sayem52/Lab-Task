@@ -1,0 +1,216 @@
+body{
+    margin:  0px;
+    padding: 0px;
+}
+
+section{
+    height: 800px;
+    padding-bottom: 150px;
+    margin-bottom: 150px;
+    background-color: rgb(244, 248, 252);
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+ .nav-link{
+    
+        float: left;
+        
+      
+}
+.nav-link a{
+    
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        
+      
+}
+
+  
+  
+.nav-link a:hover {
+    background-color: #111;
+  }
+
+
+.color-highlight{
+
+    color: orange;
+    
+
+}
+.header1{
+    text-align: center;
+    color: brown;
+    
+    
+}
+.div1{
+    margin-top: 50px;
+}
+#link1{
+    text-decoration: none;
+    
+}
+.col{
+    
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+.col img{
+    width:100%;
+    
+}
+table{
+   
+    border-collapse: collapse;
+    text-align: center;
+    margin: 50px;
+}
+.table1{
+    margin: 100px;
+}
+td,th{
+    border: 2px solid black;
+    padding: 15px 50px;
+}
+.submit-area{
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+
+}
+.gap{
+    margin: 20px;
+    
+}
+.form-control1{
+    margin-left: 40px;
+    width: 50%;
+    padding: 3px;
+}
+.form-control2{
+    margin-left: 10px;
+    width: 50%;
+    padding: 3px;
+}
+.form-control3{
+    margin-left: 40px;
+    width: 50%;
+    padding: 3px;
+}
+.button{
+    background-color: darkblue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 500px;
+    padding: 10px;
+    text-align: center;
+}
+.single-ex{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height:80%;
+
+}
+.last-area{
+   
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: white;
+
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(168, 122, 255),rgb(74, 71, 255));
+    border-image-slice: 1;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.header{
+    background-color: rgb(76, 0, 255);
+    grid-column: 1/ -1;
+    grid-row:1 / span 1;
+}
+
+.slidebar{
+    background-color: rgb(71, 255, 169);
+    grid-column:1 / span 1 ;
+    grid-row: 2 / span 2;
+}
+
+.content{
+    background-color: rgb(209, 238, 130);
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 2;
+}
+
+.footer-g{
+    background-color: rgb(160, 95, 122);
+    grid-column: 1 / span 4;
+    grid-row: 4 / span 1;
+
+}
+
+/* Other classes  */
+.header h1{
+    text-align: center;
+}
+
+.footer-g h1{
+    text-align: center;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 100px;
+}
+.slidebar h1{
+    font-family: cursive;
+}
+.item > li {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.content img{
+    width: 200px;
+    height: 150px;
+
+}
+
+
+
+
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
